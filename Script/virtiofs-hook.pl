@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $conf_file = '/etc/pve/qemu-server/virtiofs_hook.conf';
+my $conf_file = '/var/lib/vz/snippets/virtiofs_hook.conf';
 my %associations;
 
 open my $cfg, '<', $conf_file or die "Failed to open virtiofs_hook.conf";
